@@ -1,6 +1,7 @@
 * {
     margin: 0;
     padding: 0;
+    font-family: sans-serif, Georgia, 'Times New Roman', Times, serif;
 }
 header {
     background-image: url("images/banner/banner1.png");
@@ -116,3 +117,46 @@ header button {
 /* .positive-mindset button:hover::after {
     transition: 0.8s;
 } */
+.footer-section {
+    display: flex;
+    color: whitesmoke;
+    background-color: black;
+    align-items: center;
+    justify-content: space-between;
+    padding: 80px 200px;
+}
+.footer-title {
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+.footer-text {
+    margin-bottom: 15px;
+}
+.footer-icons {
+    margin-top: 15px;
+}
+.footer-icons img {
+    margin-right: 5px;
+}
+.subscribe-title {
+    font-size: 25px;
+}
+footer {
+    background-color: black;
+}
+.input-field {
+    margin: 20px 0;
+    padding : 20px 40px;
+    border: 1px solid lightgoldenrodyellow;
+}
+.submit {
+    padding: 15px 25px;
+    font-size: 18px;
+    color: #f15b22;
+}
+.Copyright {
+    color: whitesmoke;
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+}
