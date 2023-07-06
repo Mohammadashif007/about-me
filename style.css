@@ -38,4 +38,42 @@ header button {
 }
 .failure {
     display: flex;
+    align-items: center;
+    padding: 0 150px;
+}
+.failure img {
+    width: 100%;
+}
+.failure-text {
+    margin-left: 80px;
+}
+.failure-text h2 {
+    font-size: 40px;
+    margin-bottom: 30px;
+}
+.failure-content {
+    margin-bottom: 30px;
+}
+.failure-point {
+    margin-bottom: 12px;
+}
+.fa-check {
+    color: #16D887;
+    margin-right: 10px;
+}
+.plans-container {
+    margin-top: 30px;
+    text-align: center;
+
+}
+.my-plans {
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.plans-title {
+    margin-bottom: 40px;
+}
+.positive-mindset {
+    background-image: url('images/watch.png');
 }
